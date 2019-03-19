@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户管理</title>
+    <!--公共JS CSS-->
+    <script src="/static/js/common/style.js"></script>
+    <script src="/static/js/common/script.js"></script>
+
+    <link href="/static/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/lib/bootstrap/bootstrap-table.css" rel="stylesheet">
+    <style>
+        .table{
+            table-layout:fixed;
+            overflow: hidden !important;
+        }
+        .table>tbody>tr{
+            border: 0px solid transparent;
+        }
+        .fixed-table-container{
+            border-bottom: 0px solid transparent;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <table id="sysUserTable"></table>
+</div>
+<script src="/static/js/sysUser/sysUser.js"></script>
+</body>
+</html>

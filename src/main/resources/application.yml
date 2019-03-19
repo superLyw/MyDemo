@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .html
+    static-path-pattern: /static/**
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: lyw
+    password: lyw
+    driverClassName: oracle.jdbc.OracleDriver
+    hikari:
+      minimum-idle: 5
+
+      maximum-pool-size: 15
+      auto-commit: true
+      connection-timeout: 30000
+      idle-timeout: 30000
+      max-lifetime: 1800000
+  thymeleaf:
+    prefix: /WEB-INF/view
+    mode: HTML5
+  jpa:
+    show-sql: true
+
+mybatis-plus:
+  mapper-locations: classpath*:com/**/mapping/*.xml
+
+
+

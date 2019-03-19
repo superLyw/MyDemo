@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.web.dao.SysUserMapper">
+    <!--查询所有用户-->
+    <select id="queryList" resultType="java.util.Map">
+    SELECT
+      S_ID,
+      S_NAME,
+      S_EMAIL,
+      S_PASSWORD,
+      S_ISADMIN,
+      S_STATUS,
+      TO_CHAR(D_UPDATETIME, 'yyyy-MM-dd HH24:mm:ss') D_UPDATETIME,
+      TO_CHAR(D_CREATETIME, 'yyyy-MM-dd HH24:mm:ss') D_CREATETIME
+    FROM
+      SYS_USERS
+    </select>
+    
+    <!--用户注册-->
+    <insert id="register">
+        INSERT into (S_ID,S_NAME,S_PASSWORD)
+    </insert>
+
+    <!--用户登录-->
+    <select id="userLogin" resultType="java.util.Map">
+        select * from SYS_USERS
+        where 1=1
+        <if test='username!=null and username!=""'>
+            and S_ID = #{username}
+        </if>
+        <if test='password!=null and password!=""'>
+            and S_PASSWORD = #{password}
+        </if>
+    </select>
+</mapper>

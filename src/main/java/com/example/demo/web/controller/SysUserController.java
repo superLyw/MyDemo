@@ -2,8 +2,8 @@ package com.example.demo.web.controller;
 
 import com.baomidou.mybatisplus.plugins.Page;
 import com.example.demo.common.utils.BaseController;
+import com.example.demo.common.utils.PageUtils;
 import com.example.demo.web.service.SysUserService;
-import org.springframework.boot.configurationprocessor.json.JSONObject;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -30,12 +30,8 @@ public class SysUserController extends BaseController {
     @ResponseBody
     public Object queryList(@RequestParam(value = "pageSize", defaultValue = "15") String pageSize,     //页码大小
                             @RequestParam(value = "pageNumber", defaultValue = "1") String pageNumber){
-        Page page = new Page(Integer.parseInt(pageNumber), Integer.parseInt(pageSize));
-        List<Map> list = sysUserService.queryList(page);
-        HashMap map = new HashMap();
-        map.put("rows",list);
-        map.put("total",list.size());
-        return map;
+        List<Map> list = sysUserService.queryList();
+        return PageUtils.pageListSql(Integer.parseInt(pageNumber),Integer.parseInt(pageSize),list);
     }
     @RequestMapping("register")
     public void register(@RequestParam(value = "username", defaultValue = "") String username,

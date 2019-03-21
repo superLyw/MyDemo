@@ -8,7 +8,7 @@ import java.util.Map;
 
 public interface SysUserService {
 
-    List<Map> queryList(Page page);
+    List<Map> queryList();
 
     List<Map> userLogin(String username,String password);
 }

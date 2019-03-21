@@ -10,10 +10,9 @@ import java.util.Map;
 public interface SysUserMapper {
     /**
      * 查询所有用户
-     * @param page
      * @return
      */
-    List<Map> queryList(Page page);
+    List<Map> queryList();
 
     /**
      * 判断用户是否存在

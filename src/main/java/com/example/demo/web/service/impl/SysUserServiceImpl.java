@@ -16,8 +16,8 @@ public class SysUserServiceImpl implements SysUserService {
     private SysUserMapper sysUserMapper;
 
     @Override
-    public List<Map> queryList(Page page){
-        return sysUserMapper.queryList(page);
+    public List<Map> queryList(){
+        return sysUserMapper.queryList();
     }
     @Override
     public List<Map> userLogin(String username,String password){

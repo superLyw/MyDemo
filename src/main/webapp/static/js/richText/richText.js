@@ -61,7 +61,7 @@ Ueditor.initEditor = function(){
             'imageright', //右浮动
             'imagecenter', //居中
             'simpleupload', //单图上传
-            // 'insertimage', //多图上传
+            'insertimage', //多图上传
             'emotion', //表情
             'scrawl', //涂鸦
             // 'insertvideo', //视频
@@ -114,11 +114,10 @@ Ueditor.initEditor = function(){
     UE.Editor.prototype._bkGetActionUrl = UE.Editor.prototype.getActionUrl;
     UE.Editor.prototype.getActionUrl = function(action) {
         debugger;
-        // if (action == 'uploadimage' || action == 'uploadscrawl') {
-        if (action != 'config') {
-            return "/QuickDeclaration/upload";
+        if (action == 'uploadimage' || action == 'uploadscrawl') {
+            return "/ueditor/upload";
         } else {
             return this._bkGetActionUrl.call(this, action);
         }
     };
-}
+};

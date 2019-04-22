@@ -1,6 +1,5 @@
 package com.example.demo.web.model;
 
-import com.baomidou.mybatisplus.annotations.TableName;
 
 import java.util.Date;
 

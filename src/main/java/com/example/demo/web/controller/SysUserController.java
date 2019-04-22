@@ -1,6 +1,5 @@
 package com.example.demo.web.controller;
 
-import com.baomidou.mybatisplus.plugins.Page;
 import com.example.demo.common.utils.BaseController;
 import com.example.demo.common.utils.PageUtils;
 import com.example.demo.web.service.SysUserService;
@@ -10,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 

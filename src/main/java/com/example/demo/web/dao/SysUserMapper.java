@@ -1,7 +1,5 @@
 package com.example.demo.web.dao;
 
-import com.baomidou.mybatisplus.plugins.Page;
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

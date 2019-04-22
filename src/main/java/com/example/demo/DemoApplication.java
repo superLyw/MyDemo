@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import com.example.demo.common.utils.BasePath;
 import com.example.demo.common.utils.CommonInterceptor;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

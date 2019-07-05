@@ -81,7 +81,7 @@
                     index: count,
                     row: {
                         id:count,
-                        qwe1: '<input type="text"/>',
+                        qwe1: '1',
                         qwe2: "2",
                         qwe3: "3"
                     }
@@ -97,7 +97,7 @@
                 alert($('#testTable').bootstrapTable('getData'));
             });
             $('#delInfo').click(function () {
-                $('#testTable').bootstrapTable('removeByUniqueId', 2);
+                $('#testTable').bootstrapTable('removeByUniqueId', $('#testTable').bootstrapTable('getData').length-1);
             });
             $('#getData1').click(function () {
                 var html = "";

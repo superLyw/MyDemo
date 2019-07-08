@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jsTree</title>
+    <script src="/static/js/common/style.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="/static/lib/jsTree/themes/default/style.min.css"/>
+    <style>
+        .row {
+            margin: 15px;
+        }
+        .btnSpace{
+            padding: 5% 25%;
+        }
+        .btnSpace button{
+            margin: 0 5%;
+        }
+    </style>
+</head>
+<body>
+<div id="jsTree">
+</div>
+</body>
+<div id="addInfoWin" style="display:none;">
+    <form id="form">
+        <input type="text" id="sId" name="sId" style="display: none;">
+        <div class="row">
+            <div class="col-md-4">
+                <label>节点父级：</label>
+            </div>
+            <div class="col-md-8">
+                <input type="text" id="codePName" style="background-color: rgba(95,58,232,0.2);" readonly>
+                <input type="text" id="codePId" name="codePId" style="display: none;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label>节点名称：</label>
+            </div>
+            <div class="col-md-7">
+                <input type="text" id="codeName" name="codeName" placeholder="请输入节点名称">
+            </div>
+        </div>
+        <div class="row btnSpace">
+            <button id="btnAdd" type="submit">确定</button>
+            <button id="btnAddCancel" type="button">取消</button>
+        </div>
+    </form>
+</div>
+<script src="/static/js/common/script.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/lib/jsTree/jstree.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/js/jsTreeDemo/jsTreeDemo.js" type="text/javascript" charset="utf-8"></script>
+</html>

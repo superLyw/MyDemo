@@ -1,11 +1,13 @@
 package com.example.demo.web.dao;
 
+import com.baomidou.mybatisplus.mapper.BaseMapper;
+import com.example.demo.web.model.SysUser;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 import java.util.Map;
 
-public interface SysUserMapper {
+public interface SysUserMapper extends BaseMapper<SysUser> {
     /**
      * 查询所有用户
      * @return

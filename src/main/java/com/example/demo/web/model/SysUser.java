@@ -1,16 +1,29 @@
 package com.example.demo.web.model;
 
 
+import com.baomidou.mybatisplus.annotations.TableField;
+import com.baomidou.mybatisplus.annotations.TableId;
+import com.baomidou.mybatisplus.annotations.TableName;
+
 import java.util.Date;
 
+@TableName("SYS_USERS")
 public class SysUser {
+    @TableId("S_ID")
     private String sId;
+    @TableField("S_NAME")
     private String sName;
+    @TableField("S_EMAIL")
     private String sEmail;
+    @TableField("S_PASSWORD")
     private String sPassword;
+    @TableField("S_ISADMIN")
     private String sIsAdmin;
+    @TableField("S_STATUS")
     private String sStatus;
+    @TableField("D_UPDATETIME")
     private Date dUpdateTime;
+    @TableField("D_CREATETIME")
     private Date dCreateTime;
 
     public String getsId() {

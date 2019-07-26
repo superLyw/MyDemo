@@ -5,6 +5,7 @@ import com.example.demo.common.utils.ResultUtil;
 import com.example.demo.web.service.SysUserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
@@ -27,19 +28,19 @@ public class LoginController {
 
     @RequestMapping("/isUser")
     @ResponseBody
-    public Result isUser(HttpServletRequest request,HttpSession session){
+    public Result isUser(HttpServletRequest request, HttpSession session) {
         //测试使用
-        String username = "qqqq";
-        String password = "123";
-//        String username = request.getParameter("username");
-//        String password = request.getParameter("password");
-        List<Map> list = sysUserService.userLogin(username,password);
+//        String username = "qqqq";
+//        String password = "123";
+        String username = request.getParameter("username");
+        String password = request.getParameter("password");
+        List<Map> list = sysUserService.userLogin(username, password);
 
-        if(list.size()>0){
-            session.setAttribute("username",username);
-            session.setAttribute("password",password);
-        }else{
-            return ResultUtil.error(200,"账号密码不匹配");
+        if (list.size() > 0) {
+            session.setAttribute("username", username);
+            session.setAttribute("password", password);
+        } else {
+            return ResultUtil.error(200, "账号密码不匹配");
         }
 
         return ResultUtil.success();
@@ -47,14 +48,15 @@ public class LoginController {
 
     @RequestMapping("/getSessionUser")
     @ResponseBody
-    public String getSessionUser(HttpSession session){
+    public String getSessionUser(HttpSession session) {
         return session.getAttribute("username").toString();
     }
 
     @RequestMapping("/register")
-    public void register(HttpServletRequest request){
-        String username = request.getParameter("username");
-        String password = request.getParameter("password");
+    @ResponseBody
+    public Object register(@RequestParam(value = "username", defaultValue = "") String username,
+                         @RequestParam(value = "password", defaultValue = "") String password) {
+        return sysUserService.addUser(username, password);
 
     }
 }

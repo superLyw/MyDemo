@@ -4,7 +4,7 @@ var username = "";
 $.ajax({
     url: "/login/getSessionUser",
     type: "post",
-    async: "false",
+    async: false,
     dataType: "text",
     success: function (data) {
         $('#username').val(data);
@@ -13,6 +13,7 @@ $.ajax({
     }
 });
 
+
 //获取当前网址，如：
 var curWwwPath = window.document.location.href;
 //获取主机地址之后的目录如：/Tmall/index.jsp
@@ -20,6 +21,7 @@ var pathName = window.document.location.pathname;
 var pos = curWwwPath.indexOf(pathName);
 //获取主机地址，如：//localhost:8080
 var localhostPath = curWwwPath.substring(5, pos);
+// var localhostPath = '//localhost:8081';
 if ('WebSocket' in window) {
     websocket = new WebSocket("ws:" + localhostPath + "/webSocketServer/" + username);
 }

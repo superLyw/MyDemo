@@ -5,7 +5,7 @@
     $(document).ready(function () {
         loginView.init();
     });
-    loginView = {
+    var loginView = {
         init: function () {
             var self = this;
             self.initView();
@@ -35,11 +35,40 @@
                     var confirmPassWd = $('#confirmPassWd').val();
 
                     if (!/^[A-Za-z0-9]+$/.test(username))
-                        hit.innerHTML = "账号只能为英文和数字"
+                        layer.open({
+                            content: "账号只能为英文和数字"
+                        });
                     else if (password != confirmPassWd)
-                        alert("两次密码不相等");
+                        layer.open({
+                            content: "两次密码不相等"
+                        });
                     else if (password = confirmPassWd) {
-
+                        $.ajax({
+                            type: "post",
+                            url: "/login/register",
+                            data: {
+                                username: username,
+                                password: password
+                            },
+                            dataType: "json",
+                            async: false,
+                            success: function (data) {
+                                if (data.code == "0") {
+                                    layer.open({
+                                        content: "注册成功，请登录",
+                                        success: function () {
+                                            $('#loginBtn').click();
+                                            $('#userN').val(username);
+                                            $('#passWd').val(password);
+                                        }
+                                    });
+                                } else {
+                                    layer.open({
+                                        content: data.msg
+                                    });
+                                }
+                            }
+                        })
                     }
                 }
             });
@@ -73,11 +102,11 @@
                         dataType: "json",
                         async: false,
                         success: function (data) {
-                            if(data.code=="0"){
+                            if (data.code == "0") {
                                 window.location.href = "/";
-                            }else if(data.code=="200"){
+                            } else if (data.code == "200") {
                                 alert(data.msg);
-                            }else{
+                            } else {
                                 alert("登录失败");
                             }
                         }

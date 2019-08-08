@@ -1,0 +1,44 @@
+body{background: #000}
+.text-center{position:absolute;left: 48%;text-align: center;color: #fff;margin: 20px auto 0}
+#mySvg{margin: auto}
+.node{color: #fff;font-size: 14px;width: 1290px;margin: auto;line-height: 30px}
+.tool1_circle{fill:red;font-size: 8px;cursor: pointer}
+.buttonName{fill:#fff;cursor: pointer}
+.tool2_circle{fill: blue;font-size: 8px;cursor: pointer}
+.d_circle{fill: orange;font-size: 8px;cursor: pointer}
+.circle{fill: red;cursor: pointer}
+.triangle{fill: yellow;font-size: 8px;cursor: pointer}
+.tool5_polygon{stroke: yellow;font-size: 8px;cursor: pointer}
+.e_triangle_t{stroke: greenyellow;font-size: 8px;}
+.tool_station{stroke: #fff;font-size: 8px}
+.pointname{stroke: #fff;font-size: 8px;}
+.active.triangle{fill: sandybrown; }
+.active{animation:twinkle .3s ease infinite; }
+.active .circle{animation:twinkle .3s ease infinite; }
+.actbtn{fill:#126BBF;cursor: pointer}
+.button{cursor: pointer}
+/*添加闪烁效果*/
+@keyframes twinkle
+{
+    from {fill:attr(fill)}
+
+    to {fill:#fff}
+}
+
+@-moz-keyframes twinkle /* Firefox */
+{
+    from {fill:attr(fill)}
+    to {fill:#fff}
+}
+
+@-webkit-keyframes twinkle /* Safari 和 Chrome */
+{
+    from {fill:attr(fill)}
+    to {fill:#fff}
+}
+
+@-o-keyframes twinkle /* Opera */
+{
+    from {fill:attr(fill)}
+    to {fill:#fff}
+}

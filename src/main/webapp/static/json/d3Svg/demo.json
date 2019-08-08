@@ -1,0 +1,964 @@
+[
+  {
+    "id":"001",
+    "name": "0001",
+    "value": {"x":"24", "y":"259"},
+    "circle":{"show":false, "name": "EXC01"},
+    "d_circle":{"show":false, "name": "GB01"},
+    "b_circle":{"show":false, "name": "GH01"},
+    "triangle":{"show":false, "name": "TR01"},
+    "e_triangle":{"show":false, "name": "CD01"},
+    "linkRight":[
+      {"linkId":"002","color": "#50bee6"}
+    ]
+  },{
+    "id":"002",
+    "name": "0002",
+    "value": {"x":"66", "y":"259"},
+    "circle":{"show":false, "name": "EXC02"},
+    "d_circle":{"show":false, "name": "GB02"},
+    "b_circle":{"show":false, "name": "GH02"},
+    "triangle":{"show":false, "name": "TR02"},
+    "e_triangle":{"show":false, "name": "CD01"},
+    "linkRight":[
+      {"linkId":"003","color": "green"},
+      {"linkId":"016","color": "red"}
+    ]
+  },{
+    "id":"003",
+    "name": "0003",
+    "value": {"x":"154", "y":"259"},
+    "circle":{"show":false, "name": "EXC03"},
+    "d_circle":{"show":false, "name": "GB03"},
+    "b_circle":{"show":false, "name": "GH03"},
+    "triangle":{"show":false, "name": "TR03"},
+    "e_triangle":{"show":false, "name": "CD03"},
+    "linkRight":[
+      {"linkId":"004","color": "green"}
+    ]
+  },{
+    "id":"004",
+    "name": "0004",
+    "value": {"x":"239", "y":"259"},
+    "circle":{"show":false, "name": "EXC04"},
+    "d_circle":{"show":true, "name": "GB04"},
+    "b_circle":{"show":false, "name": "GH04"},
+    "triangle":{"show":true, "name": ""},
+    "e_triangle":{"show":true, "name": ""},
+    "linkRight":[
+      {"linkId":"005","color": "green"},
+      {"linkId":"039","color": "red"}
+    ]
+  },{
+  "id":"005",
+  "name": "0005",
+  "value": {"x":"403", "y":"259"},
+  "circle":{"show":true, "name": "EXC05"},
+  "d_circle":{"show":false, "name": "GB05"},
+  "b_circle":{"show":false, "name": "GH05"},
+  "triangle":{"show":true, "name": "TR05"},
+  "e_triangle":{"show":false, "name": "CD05"},
+  "linkRight":[
+    {"linkId":"006","color": "blue"}
+  ]
+},{
+  "id":"006",
+  "name": "0006",
+  "value": {"x":"603", "y":"259"},
+  "circle":{"show":true, "name": "EXC06"},
+  "d_circle":{"show":false, "name": "GB06"},
+  "b_circle":{"show":false, "name": "GH06"},
+  "triangle":{"show":true, "name": "TR06"},
+  "e_triangle":{"show":false, "name": "CD06"},
+  "linkRight":[
+    {"linkId":"007","color": "green"}
+  ]
+},{
+  "id":"007",
+  "name": "0007",
+  "value": {"x":"700", "y":"259"},
+  "circle":{"show":false, "name": "EXC07"},
+  "d_circle":{"show":false, "name": "GB07"},
+  "b_circle":{"show":false, "name": "GH07"},
+  "triangle":{"show":false, "name": "TR07"},
+  "e_triangle":{"show":false, "name": "CD07"},
+  "linkRight":[
+    {"linkId":"008","color": "green"}
+  ]
+},{
+  "id":"008",
+  "name": "0008",
+  "value": {"x":"786", "y":"259"},
+  "circle":{"show":false, "name": "EXC08"},
+  "d_circle":{"show":false, "name": "GB08"},
+  "b_circle":{"show":false, "name": "GH08"},
+  "triangle":{"show":false, "name": "TR08"},
+  "e_triangle":{"show":false, "name": "CD08"},
+  "linkRight":[
+    {"linkId":"009","color": "green"},
+    {"linkId":"022","color": "red"}
+  ]
+},{
+  "id":"009",
+  "name": "0009",
+  "value": {"x":"858", "y":"259"},
+  "circle":{"show":false, "name": "EXC09"},
+  "d_circle":{"show":false, "name": "GB09"},
+  "b_circle":{"show":false, "name": "GH09"},
+  "triangle":{"show":false, "name": "TR09"},
+  "e_triangle":{"show":false, "name": "CD09"},
+  "linkRight":[
+    {"linkId":"0101","color": "green"}
+  ]
+},{
+  "id":"0101",
+  "name": "00101",
+  "value": {"x":"1014", "y":"259"},
+  "circle":{"show":true, "name": "EXC101"},
+  "d_circle":{"show":false, "name": "GB101"},
+  "b_circle":{"show":false, "name": "GH101"},
+  "triangle":{"show":false, "name": "TR101"},
+  "e_triangle":{"show":false, "name": "CD101"},
+  "linkRight":[
+    {"linkId":"010","color": "#50bee6"}
+  ]
+},{
+  "id":"010",
+  "name": "0010",
+  "value": {"x":"1068", "y":"259"},
+  "circle":{"show":true, "name": "EXC10"},
+  "d_circle":{"show":false, "name": "GB10"},
+  "b_circle":{"show":false, "name": "GH10"},
+  "triangle":{"show":false, "name": "TR10"},
+  "e_triangle":{"show":false, "name": "CD10"},
+  "linkRight":[
+    {"linkId":"011","color": "#50bee6"}
+  ]
+},{
+  "id":"011",
+  "name": "0011",
+  "value": {"x":"1152", "y":"259"},
+  "circle":{"show":false, "name": "EXC11"},
+  "d_circle":{"show":true, "name": "GB11"},
+  "b_circle":{"show":false, "name": "GH11"},
+  "triangle":{"show":true, "name": ""},
+  "e_triangle":{"show":true, "name": ""},
+  "linkRight":[
+    {"linkId":"012","color": "green"}
+  ]
+},{
+  "id":"012",
+  "name": "0012",
+  "value": {"x":"1214", "y":"259"},
+  "circle":{"show":false, "name": "EXC12"},
+  "d_circle":{"show":true, "name": "GB12"},
+  "b_circle":{"show":false, "name": "GH12"},
+  "triangle":{"show":true, "name": ""},
+  "e_triangle":{"show":true, "name": "CD12"},
+  "linkRight":[
+    {"linkId":"013","color": "#50bee6"}
+  ]
+},{
+  "id":"013",
+  "name": "0013",
+  "value": {"x":"1256", "y":"259"},
+  "circle":{"show":false, "name": "EXC13"},
+  "d_circle":{"show":true, "name": "GB13"},
+  "b_circle":{"show":false, "name": "GH13"},
+  "triangle":{"show":true, "name": "TR13"},
+  "e_triangle":{"show":true, "name": ""},
+  "linkRight":[]
+},{
+  "id":"014",
+  "name": "0014",
+  "value": {"x":"24", "y":"301"},
+  "circle":{"show":true, "name": "EXC14"},
+  "d_circle":{"show":false, "name": "GB14"},
+  "b_circle":{"show":false, "name": "GH14"},
+  "triangle":{"show":false, "name": "TR14"},
+  "e_triangle":{"show":true, "name": "CD14"},
+  "linkRight":[
+    {"linkId":"015","color": "#50bee6"}
+  ]
+},{
+  "id":"015",
+  "name": "0015",
+  "value": {"x":"66", "y":"301"},
+  "circle":{"show":false, "name": "EXC15"},
+  "d_circle":{"show":true, "name": ""},
+  "b_circle":{"show":false, "name": "GH15"},
+  "triangle":{"show":true, "name": ""},
+  "e_triangle":{"show":true, "name": "CD15"},
+  "linkRight":[
+    {"linkId":"016","color": "green"}
+  ]
+},{
+  "id":"016",
+  "name": "0016",
+  "value": {"x":"168", "y":"301"},
+  "circle":{"show":false, "name": "EXC146"},
+  "d_circle":{"show":false, "name": "GB16"},
+  "b_circle":{"show":false, "name": "GH16"},
+  "triangle":{"show":false, "name": "TR16"},
+  "e_triangle":{"show":false, "name": "CD16"},
+  "linkRight":[
+    {"linkId":"017","color": "green"},
+    {"linkId":"004","color": "red"}
+  ]
+},{
+  "id":"017",
+  "name": "0017",
+  "value": {"x":"216", "y":"301"},
+  "circle":{"show":false, "name": "EXC147"},
+  "d_circle":{"show":false, "name": "GB17"},
+  "b_circle":{"show":false, "name": "GH17"},
+  "triangle":{"show":false, "name": "TR17"},
+  "e_triangle":{"show":false, "name": "CD17"},
+  "linkRight":[
+    {"linkId":"018","color": "green"},
+    {"linkId":"058","color": "red"}
+  ]
+},{
+  "id":"018",
+  "name": "0018",
+  "value": {"x":"270", "y":"301"},
+  "circle":{"show":false, "name": "EXC18"},
+  "d_circle":{"show":false, "name": "GB18"},
+  "b_circle":{"show":false, "name": "GH18"},
+  "triangle":{"show":true, "name": "TR18"},
+  "e_triangle":{"show":false, "name": "CD18"},
+  "linkRight":[
+    {"linkId":"019","color": "green"},
+    {"linkId":"054","color": "red"}
+  ]
+},{
+  "id":"019",
+  "name": "0019",
+  "value": {"x":"403", "y":"301"},
+  "circle":{"show":true, "name": "EXC19"},
+  "d_circle":{"show":false, "name": "GB19"},
+  "b_circle":{"show":false, "name": "GH19"},
+  "triangle":{"show":true, "name": ""},
+  "e_triangle":{"show":false, "name": "CD19"},
+  "linkRight":[
+    {"linkId":"020","color": "blue"}
+  ]
+},{
+  "id":"020",
+  "name": "0020",
+  "value": {"x":"603", "y":"301"},
+  "circle":{"show":true, "name": "EXC20"},
+  "d_circle":{"show":false, "name": "GB20"},
+  "b_circle":{"show":false, "name": "GH20"},
+  "triangle":{"show":true, "name": ""},
+  "e_triangle":{"show":false, "name": "CD20"},
+  "linkRight":[
+    {"linkId":"021","color": "green"}
+  ]
+},{
+  "id":"021",
+  "name": "0021",
+  "value": {"x":"768", "y":"301"},
+  "circle":{"show":false, "name": "EXC21"},
+  "d_circle":{"show":false, "name": "GB21"},
+  "b_circle":{"show":false, "name": "GH21"},
+  "triangle":{"show":false, "name": "TR21"},
+  "e_triangle":{"show":false, "name": "CD21"},
+  "linkRight":[
+    {"linkId":"022","color": "green"}
+  ]
+},{
+  "id":"022",
+  "name": "0022",
+  "value": {"x":"858", "y":"301"},
+  "circle":{"show":false, "name": "EXC22"},
+  "d_circle":{"show":false, "name": "GB22"},
+  "b_circle":{"show":false, "name": "GH22"},
+  "triangle":{"show":false, "name": "TR22"},
+  "e_triangle":{"show":false, "name": "CD22"},
+  "linkRight":[
+    {"linkId":"023","color": "green"}
+  ]
+},{
+  "id":"023",
+  "name": "0023",
+  "value": {"x":"924", "y":"301"},
+  "circle":{"show":false, "name": "EXC23"},
+  "d_circle":{"show":false, "name": "GB23"},
+  "b_circle":{"show":false, "name": "GH23"},
+  "triangle":{"show":false, "name": "TR23"},
+  "e_triangle":{"show":false, "name": "CD23"},
+  "linkRight":[
+    {"linkId":"024","color": "green"},
+    {"linkId":"0101","color": "red"}
+  ]
+},{
+  "id":"024",
+  "name": "0024",
+  "value": {"x":"1014", "y":"301"},
+  "circle":{"show":false, "name": "EXC24"},
+  "d_circle":{"show":true, "name": ""},
+  "b_circle":{"show":false, "name": "GH24"},
+  "triangle":{"show":true, "name": "TR24"},
+  "e_triangle":{"show":false, "name": "CD24"},
+  "linkRight":[
+    {"linkId":"025","color": "green"}
+  ]
+},{
+  "id":"025",
+  "name": "0025",
+  "value": {"x":"1068", "y":"290"},
+  "circle":{"show":false, "name": "EXC25"},
+  "d_circle":{"show":false, "name": "GB25"},
+  "b_circle":{"show":false, "name": "GH25"},
+  "triangle":{"show":false, "name": "TR25"},
+  "e_triangle":{"show":true, "name": "CD25"},
+  "linkRight":[
+    {"linkId":"026","color": "#50bee6"}
+  ]
+},{
+  "id":"026",
+  "name": "0026",
+  "value": {"x":"1110", "y":"290"},
+  "circle":{"show":false, "name": "EXC26"},
+  "d_circle":{"show":false, "name": "GB26"},
+  "b_circle":{"show":false, "name": "GH26"},
+  "triangle":{"show":false, "name": "TR26"},
+  "e_triangle":{"show":false, "name": "CD26"},
+  "linkRight":[
+    {"linkId":"027","color": "#50bee6"}
+  ]
+},{
+  "id":"027",
+  "name": "0027",
+  "value": {"x":"1153", "y":"290"},
+  "circle":{"show":false, "name": "EXC27"},
+  "d_circle":{"show":true, "name": "GB27"},
+  "b_circle":{"show":false, "name": "GH27"},
+  "triangle":{"show":true, "name": ""},
+  "e_triangle":{"show":true, "name": ""},
+  "linkRight":[
+    {"linkId":"028","color": "green"}
+  ]
+},{
+  "id":"028",
+  "name": "0028",
+  "value": {"x":"1213", "y":"290"},
+  "circle":{"show":false, "name": "EXC28"},
+  "d_circle":{"show":true, "name": "GB28"},
+  "b_circle":{"show":false, "name": "GH28"},
+  "triangle":{"show":true, "name": ""},
+  "e_triangle":{"show":true, "name": "CD28"},
+  "linkRight":[
+    {"linkId":"029","color": "#50bee6"}
+  ]
+},{
+  "id":"029",
+  "name": "0029",
+  "value": {"x":"1256", "y":"290"},
+  "circle":{"show":false, "name": "EXC28"},
+  "d_circle":{"show":false, "name": "GB28"},
+  "b_circle":{"show":false, "name": "GH28"},
+  "triangle":{"show":false, "name": "TR28"},
+  "e_triangle":{"show":false, "name": "CD28"},
+  "linkRight":[]
+},{
+  "id":"030",
+  "name": "0030",
+  "value": {"x":"1014", "y":"204"},
+  "circle":{"show":false, "name": "EXC30"},
+  "d_circle":{"show":false, "name": "GB30"},
+  "b_circle":{"show":false, "name": "GH30"},
+  "triangle":{"show":false, "name": "TR30"},
+  "e_triangle":{"show":false, "name": "CD30"},
+  "isTower":true,
+  "linkRight":[
+    {"linkId":"031","color": "yellow"}
+  ]
+},{
+  "id":"031",
+  "name": "0031",
+  "value": {"x":"1014", "y":"235"},
+  "circle":{"show":false, "name": "EXC31"},
+  "d_circle":{"show":false, "name": "GB31"},
+  "b_circle":{"show":false, "name": "GH31"},
+  "triangle":{"show":false, "name": "TR31"},
+  "e_triangle":{"show":false, "name": "CD31"},
+  "linkRight":[]
+},{
+  "id":"032",
+  "name": "0030",
+  "value": {"x":"1014", "y":"328"},
+  "circle":{"show":false, "name": "EXC323"},
+  "d_circle":{"show":false, "name": "GB32"},
+  "b_circle":{"show":false, "name": "GH32"},
+  "triangle":{"show":false, "name": "TR32"},
+  "e_triangle":{"show":false, "name": "CD32"},
+  "linkRight":[
+    {"linkId":"033","color": "yellow"}
+  ]
+},{
+  "id":"033",
+  "name": "0033",
+  "value": {"x":"1014", "y":"356"},
+  "circle":{"show":false, "name": "EXC33"},
+  "d_circle":{"show":false, "name": "GB33"},
+  "b_circle":{"show":false, "name": "GH33"},
+  "triangle":{"show":false, "name": "TR33"},
+  "e_triangle":{"show":false, "name": "CD33"},
+  "isTower":true,
+  "linkRight":[]
+},{
+  "id":"034",
+  "name": "0034",
+  "value": {"x":"1125", "y":"230"},
+  "circle":{"show":false, "name": "EXC324"},
+  "d_circle":{"show":true, "name": ""},
+  "b_circle":{"show":false, "name": ""},
+  "triangle":{"show":false, "name": "TR34"},
+  "e_triangle":{"show":false, "name": "CD34"},
+  "linkRight":[
+    {"linkId":"035","color": "#fff"}
+  ]
+},{
+  "id":"035",
+  "name": "0035",
+  "value": {"x":"1165", "y":"230"},
+  "circle":{"show":false, "name": "EXC33"},
+  "d_circle":{"show":false, "name": "GB33"},
+  "b_circle":{"show":false, "name": "GH33"},
+  "triangle":{"show":false, "name": "TR33"},
+  "e_triangle":{"show":false, "name": ""},
+  "linkRight":[
+    {"linkId":"036","color": "#fff"},
+    {"linkId":"012","color": "red"}
+  ]
+},{
+  "id":"036",
+  "name": "0036",
+  "value": {"x":"1185", "y":"230"},
+  "circle":{"show":false, "name": "EXC36"},
+  "d_circle":{"show":false, "name": "GB62"},
+  "b_circle":{"show":false, "name": "GH27"},
+  "triangle":{"show":false, "name": ""},
+  "e_triangle":{"show":false, "name": ""},
+  "linkRight":[]
+},{
+  "id":"037",
+  "name": "0037",
+  "value": {"x":"1130", "y":"320"},
+  "circle":{"show":false, "name": ""},
+  "d_circle":{"show":true, "name": ""},
+  "b_circle":{"show":false, "name": ""},
+  "triangle":{"show":false, "name": "TR37"},
+  "e_triangle":{"show":false, "name": ""},
+  "linkRight":[
+    {"linkId":"038","color": "#fff"}
+  ]
+},{
+  "id":"038",
+  "name": "0038",
+  "value": {"x":"1170", "y":"320"},
+  "circle":{"show":false, "name": "C3165"},
+  "d_circle":{"show":false, "name": "GB38"},
+  "b_circle":{"show":false, "name": ""},
+  "triangle":{"show":false, "name": ""},
+  "e_triangle":{"show":false, "name": "CD383"},
+  "linkRight":[
+    {"linkId":"028","color": "red"}
+  ]
+},
+  {
+    "id":"039",
+    "name": "0039",
+    "value": {"x":"294", "y":"217"},
+    "circle":{"show":false, "name": ""},
+    "d_circle":{"show":false, "name": "GB39"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": ""},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"040","color": "red"},
+      {"linkId":"043","color": "green"}
+      ]
+  },{
+  "id":"040",
+  "name": "0040",
+  "value": {"x":"403", "y":"217"},
+  "circle":{"show":true, "name": "TVBD2"},
+  "d_circle":{"show":false, "name": "GB39"},
+  "b_circle":{"show":false, "name": ""},
+  "triangle":{"show":true, "name": ""},
+  "e_triangle":{"show":false, "name": "CD39"},
+  "linkRight":[
+    {"linkId":"041","color": "blue"}
+  ]
+},{
+  "id":"041",
+  "name": "0041",
+  "value": {"x":"603", "y":"217"},
+  "circle":{"show":true, "name": "Tdr32"},
+  "d_circle":{"show":false, "name": "GB39"},
+  "b_circle":{"show":false, "name": ""},
+  "triangle":{"show":true, "name": "WD213"},
+  "e_triangle":{"show":false, "name": "CD39"},
+  "linkRight":[
+    {"linkId":"042","color": "red"}
+  ]
+},
+  {
+    "id":"042",
+    "name": "0042",
+    "value": {"x":"647", "y":"217"},
+    "circle":{"show":false, "name": ""},
+    "d_circle":{"show":false, "name": "GB39"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": ""},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"007","color": "red"}
+    ]
+  },
+  {
+    "id":"043",
+    "name": "0043",
+    "value": {"x":"403", "y":"175"},
+    "circle":{"show":true, "name": "GB3934"},
+    "d_circle":{"show":false, "name": "GB39"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":true, "name": "Te324"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"044","color": "blue"}
+    ]
+  },
+  {
+    "id":"044",
+    "name": "0044",
+    "value": {"x":"603", "y":"175"},
+    "circle":{"show":true, "name": "GB44"},
+    "d_circle":{"show":false, "name": "GB39"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":true, "name": "TD44"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"045","color": "#fff"}
+    ]
+  },
+  {
+    "id":"045",
+    "name": "0045",
+    "value": {"x":"655", "y":"175"},
+    "circle":{"show":false, "name": "GB44"},
+    "d_circle":{"show":false, "name": "GB39"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD44"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"046","color": "#fff"}
+    ]
+  },
+  {
+    "id":"046",
+    "name": "0046",
+    "value": {"x":"701", "y":"217"},
+    "circle":{"show":false, "name": "GB44"},
+    "d_circle":{"show":false, "name": "GB39"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD44"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"047","color": "green"},
+      {"linkId":"008","color": "red"}
+    ]
+  },
+  {
+    "id":"047",
+    "name": "0047",
+    "value": {"x":"740", "y":"217"},
+    "circle":{"show":false, "name": "GB44"},
+    "d_circle":{"show":false, "name": "GB39"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD44"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"048","color": "green"},
+      {"linkId":"049","color": "red"}
+    ]
+  },
+  {
+    "id":"048",
+    "name": "0048",
+    "value": {"x":"821", "y":"217"},
+    "circle":{"show":false, "name": "GB44"},
+    "d_circle":{"show":true, "name": "GB48"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD44"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[]
+  },
+  {
+    "id":"049",
+    "name": "0049",
+    "value": {"x":"794", "y":"175"},
+    "circle":{"show":false, "name": "GB44"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD44"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"050","color": "green"}
+    ]
+  },
+  {
+    "id":"050",
+    "name": "0050",
+    "value": {"x":"772", "y":"175"},
+    "circle":{"show":false, "name": "GB44"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD44"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[]
+  },
+  {
+    "id":"051",
+    "name": "0049",
+    "value": {"x":"794", "y":"175"},
+    "circle":{"show":false, "name": "GB44"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD44"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"052","color": "#fff"}
+    ]
+  },
+  {
+    "id":"052",
+    "name": "0052",
+    "value": {"x":"802", "y":"166"},
+    "circle":{"show":false, "name": "GB44"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD44"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[ {"linkId":"053","color": "#fff"}]
+  },
+  {
+    "id":"053",
+    "name": "0052",
+    "value": {"x":"821", "y":"166"},
+    "circle":{"show":false, "name": "GB44"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD44"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[ ]
+  },
+  {
+    "id":"054",
+    "name": "0054",
+    "value": {"x":"403", "y":"343"},
+    "circle":{"show":true, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":true, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"055","color": "blue"}
+    ]
+  },
+  {
+    "id":"055",
+    "name": "0055",
+    "value": {"x":"603", "y":"343"},
+    "circle":{"show":true, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":true, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[]
+  },
+  {
+    "id":"055",
+    "name": "0055",
+    "value": {"x":"648", "y":"343"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"055","color": "red"},
+      {"linkId":"021","color": "red"}
+    ]
+  },
+  {
+    "id":"056",
+    "name": "0056",
+    "value": {"x":"150", "y":"343"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":true, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"057","color": "blue"}
+    ]
+  },
+  {
+    "id":"057",
+    "name": "00576",
+    "value": {"x":"234", "y":"343"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"058","color": "green"}
+    ]
+  },
+  {
+    "id":"058",
+    "name": "0058",
+    "value": {"x":"268", "y":"343"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"059","color": "#fff"}
+    ]
+  },
+  {
+    "id":"059",
+    "name": "0059",
+    "value": {"x":"312", "y":"385"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"060","color": "blue"},
+      {"linkId":"061","color": "red"}
+    ]
+  },
+  {
+    "id":"060",
+    "name": "0060",
+    "value": {"x":"403", "y":"385"},
+    "circle":{"show":true, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":true, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"062","color": "blue"}
+    ]
+  },
+  {
+    "id":"062",
+    "name": "0062",
+    "value": {"x":"603", "y":"385"},
+    "circle":{"show":true, "name": "GB62"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":true, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[{"linkId":"063","color": "green"}]
+  },
+  {
+    "id":"063",
+    "name": "0063",
+    "value": {"x":"815", "y":"385"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[{"linkId":"064","color": "#fff"}]
+  },
+  {
+    "id":"064",
+    "name": "0064",
+    "value": {"x":"857", "y":"343"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"065","color": "green"},
+      {"linkId":"023","color": "red"}
+    ]
+  },
+  {
+    "id":"065",
+    "name": "0065",
+    "value": {"x":"894", "y":"343"},
+    "circle":{"show":true, "name": "GB94"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[]
+  },{
+    "id":"061",
+    "name": "0061",
+    "value": {"x":"403", "y":"427"},
+    "circle":{"show":true, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":true, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[{"linkId":"066","color": "blue"}]
+  },{
+    "id":"066",
+    "name": "0066",
+    "value": {"x":"603", "y":"427"},
+    "circle":{"show":true, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":true, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[{"linkId":"067","color": "#fff"}]
+  },{
+    "id":"067",
+    "name": "0067",
+    "value": {"x":"762", "y":"427"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"068","color": "green"},
+      {"linkId":"063","color": "red"}
+    ]
+  },{
+    "id":"068",
+    "name": "0068",
+    "value": {"x":"793", "y":"427"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"069","color": "blue"}
+    ]
+  },{
+    "id":"069",
+    "name": "0069",
+    "value": {"x":"837", "y":"427"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"070","color": "red"}
+    ]
+  },{
+    "id":"070",
+    "name": "0070",
+    "value": {"x":"897", "y":"427"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"071","color": "red"}
+    ]
+  },{
+    "id":"071",
+    "name": "0070",
+    "value": {"x":"913", "y":"473"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"074","color": "#fff"}
+    ]
+  },{
+    "id":"072",
+    "name": "0072",
+    "value": {"x":"860", "y":"453"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"073","color": "green"}
+    ]
+  },{
+    "id":"073",
+    "name": "0073",
+    "value": {"x":"877", "y":"453"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"071","color": "green"}
+    ]
+  },{
+    "id":"074",
+    "name": "0073",
+    "value": {"x":"931", "y":"482"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"075","color": "red"}
+    ]
+  },{
+    "id":"075",
+    "name": "0075",
+    "value": {"x":"977", "y":"505"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+      {"linkId":"076","color": "green"},
+      {"linkId":"077","color": "#fff"}
+    ]
+  },{
+    "id":"076",
+    "name": "0075",
+    "value": {"x":"935", "y":"505"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":false, "name": "GB49"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+
+    ]
+  },{
+    "id":"077",
+    "name": "0077",
+    "value": {"x":"1014", "y":"505"},
+    "circle":{"show":false, "name": "GB54"},
+    "d_circle":{"show":true, "name": "GB77"},
+    "b_circle":{"show":false, "name": ""},
+    "triangle":{"show":false, "name": "TD54"},
+    "e_triangle":{"show":false, "name": "CD39"},
+    "linkRight":[
+
+    ]
+  }
+]

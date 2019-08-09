@@ -5,3 +5,4 @@ document.write('<script src="/static/lib/bootstrap/bootstrap-table-zh-CN.js"></s
 document.write('<script src="/static/lib/jquery-validate/jquery.validate.min.js"></script>');
 document.write('<script src="/static/js/common/common.js"></script>');
 document.write('<script src="/static/lib/layer/layer.js"></script>');
+document.write('<script src="/static/lib/d3/d3.v5.min.js"></script>');

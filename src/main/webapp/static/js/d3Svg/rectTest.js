@@ -6,12 +6,39 @@
 
         var marge = {top: 60, bottom: 60, left: 60, right: 60};//设置边距
         var dataset = [250, 210, 170, 130, 90];
-        var data2 = [2.5, 2.1, 1.7, 1.3, 0.9];
 
         var rectHeight = 30;
 
         var g = rectSvg.append('g')
             .attr("transform", "translate(" + marge.top + "," + marge.left + ")");
+
+        var xScale = d3.scaleLinear()
+            .domain([0, d3.max(dataset)])
+            .range([0, 250]);
+
+        var yScale = d3.scaleLinear()
+            .domain([dataset.length, 0])
+            .range([0, dataset.length * rectHeight]);
+
+        var xAxis = d3.axisBottom(xScale)
+            .ticks(7);
+        var yAxis = d3.axisLeft(yScale)
+            .ticks(7);
+
+        g.append('g')
+            .attr("transform","translate("+20+","+(dataset.length*rectHeight)+")")
+            .call(xAxis);
+
+        g.append('g')
+            .attr("transform","translate("+20+","+0+")")
+            .call(yAxis);
+
+
+        // var yAxis = d3.axis()
+        //     .scale(yScale)
+        //     .orient("left")
+        //     .ticks(6);
+
 
         g.selectAll('rect')
             .data(dataset)
@@ -33,7 +60,7 @@
                 return d;
             })
         var texts = rectSvg.selectAll(".MyText")//添加文字
-            .data(data2)
+            .data(dataset)
             .enter()
             .append("text")
             .attr("class", "MyText")

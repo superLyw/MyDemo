@@ -3,12 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <title>layerTemp</title>
+    <script src="/static/js/common/script.js" type="text/javascript" charset="utf-8"></script>
+    <style>
+        .layui-layer,
+        .layui-layer-shade {
+            position: fixed;
+            _position: absolute;
+            pointer-events: auto
+        }
+
+        .layui-layer {
+            -webkit-overflow-scrolling: touch;
+            top: 150px;
+            left: 0;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            -webkit-background-clip: content;
+            border-radius: 2px;
+            box-shadow: 1px 1px 50px rgba(0, 0, 0, .3)
+        }
+
+        .layui-layer-dialog .layui-layer-content {
+            position: relative;
+            padding: 20px;
+            line-height: 24px;
+            word-break: break-all;
+            overflow: hidden;
+            font-size: 14px;
+            overflow-x: hidden;
+            overflow-y: auto
+        }
+
+        .layui-layer-btn a,
+        .layui-layer-dialog .layui-layer-ico,
+        .layui-layer-setwin a {
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            vertical-align: top
+        }
+
+        .layui-layer-dialog .layui-layer-content .layui-layer-ico {
+            position: absolute;
+            top: 16px;
+            left: 15px;
+            _left: -40px;
+            width: 30px;
+            height: 30px
+        }
+
+        .layui-layer-dialog .layui-layer-padding {
+            padding: 20px 20px 20px 55px;
+            text-align: left
+        }
+
+        .layui-layer-molv .layui-layer-title {
+            background: #009f95;
+            color: #fff;
+            border: none
+        }
+
+        .layui-layer-molv .layui-layer-btn a {
+            background: #009f95;
+            border-color: #009f95
+        }
+
+        .layui-layer-molv .layui-layer-btn .layui-layer-btn1 {
+            background: #92B8B1
+        }
+        .divSvg{
+            box-shadow: 1px 1px 50px rgba(0, 0, 0, .3)
+        }
+    </style>
 </head>
 <body>
 <ul>
-    <li><button id="test1">test1</button><span>最简单弹出框</span></li>
-    <li><button id="test2">test2</button><span>弹出框</span></li>
+    <li>
+        <button id="test1">test1</button>
+        <span>最简单弹出框</span></li>
+    <li>
+        <button id="test2">test2</button>
+        <span>弹出框</span></li>
+    <li>
+        <button id="test3">svg</button>
+        <span>svg弹出框</span></li>
 </ul>
+<div class="layui-layer layui-layer-dialog layui-layer-molv">
+
+</div>
+<svg>
+</svg>
 </body>
 <script src="/static/js/common/script.js" type="text/javascript" charset="utf-8"></script>
 <script src="/static/js/layerTemp/layerTemp.js" type="text/javascript" charset="utf-8"></script>

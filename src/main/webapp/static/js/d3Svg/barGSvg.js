@@ -6,6 +6,7 @@
 
         var marge = {top: 60, bottom: 60, left: 60, right: 60};
         var svg = d3.select('svg')
+            .attr('class', 'mySvg')
             .attr('width', width + 'px')
             .attr('height', height + 'px');
 
@@ -75,7 +76,7 @@
         var gTip = g
             .append('g')
             .attr('class', 'rectTip')
-            .attr('visibility', 'hidden');
+            .attr('opacity', 0);
 
         var rTip = gTip.append('rect')
             .attr('width', 200)
@@ -88,18 +89,21 @@
         d3.selectAll('.zhuG')
             .on('click', function (d, i) {
                 tTip
-                    .attr('dy',20)
+                    .attr('dy', 20)
                     .text(d);
                 gTip
                     .attr("transform", "translate(" + (d3.event.x - 64) + "," + (d3.event.y - 64) + ")")
-                    .attr('visibility', 'hidden')
-                    .style("opacity", 0)
+                    .attr('opacity', 0)
                     .transition()
                     .duration(300)
-                    .attr('visibility', 'visible')
-                    .style("opacity", 1);
+                    .attr("opacity", 1);
 
             });
+        $('.mySvg').initInfoWin();
+        svg.append('use')
+            .attr('x', 100)
+            .attr('y', 80)
+            .attr('href', '#popInfoWin')
 
 
     })

@@ -98,7 +98,7 @@
                 clickToSelect: true,                //是否启用点击选中行
                 uniqueId: "S_ID", //每一行的唯一标识，一般为主键列
                 showExport: false,
-                height: 300,
+                height: $('.container-fluid').outerHeight() - 10,
                 columns: self.gridColumn1
             });
         },

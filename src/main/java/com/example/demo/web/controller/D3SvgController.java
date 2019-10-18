@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class D3SvgController {
     @RequestMapping("/view")
     public String toView(){
-        return "/d3Svg/d3Svg";
+        return "/d3Svg/barGSvg";
     }
 }

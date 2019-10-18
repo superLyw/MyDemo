@@ -3,15 +3,82 @@
 <html>
 <head>
     <title>Java后端WebSocket的Tomcat实现</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1000px;
+            height: 600px;
+        }
+
+        .total {
+            position: relative;
+            width: 80%;
+            height: 80%;
+            border: 1px solid black;
+        }
+        .content {
+            width: calc(100% - 6px);
+            height: 70%;
+            border: 1px solid black;
+            margin: 2px;
+            overflow-y: scroll;
+        }
+        .input {
+            width: calc(100% - 6px);
+            height: calc(25% - 10px);
+            margin: 2px;
+            border: 1px solid black;
+            background: red;
+        }
+        .inputArea{
+            height: calc(100% - 4px);
+            width: calc(100% - 4px);
+
+        }
+        button{
+            border: none;
+            background: #3916f0;
+            height: 1.25rem;
+            width: 2.5rem;
+            color: #fff;
+
+        }
+        .btnNormal{
+
+        }
+        .footer{
+            height: calc(5% - 4px);
+            min-height: 1.25rem;
+            margin: 2px;
+            border: 1px solid black;
+            width:calc(100% - 6px);
+        }
+        .btnArea{
+            width: 20%;
+            vertical-align: middle;
+            margin:auto 80%;
+        }
+    </style>
 </head>
 <body>
 <input type="text" id="username" style="display: none"/>
-Welcome<br/><input id="text" type="text"/>
-<button onclick="send()">发送消息</button>
-<hr/>
-<button onclick="closeWebSocket()">关闭WebSocket连接</button>
-<hr/>
-<div id="message"></div>
+<div class="total">
+    <div class="content">
+        <div id="message"></div>
+    </div>
+    <div class="input">
+
+            <textarea class="inputArea" id="text"></textarea>
+
+    </div>
+    <div class="footer">
+        <div class="btnArea">
+            <button type="button" class="btnNormal" onclick="send()">发送</button>
+            <button type="button" class="btnNormal" onclick="closeWebSocket()">关闭</button>
+        </div>
+    </div>
+</div>
 </body>
 <script src="/static/lib/jquery/jquery.min.js"></script>
 <script src="/static/js/webSocket/websocket123.js"></script>

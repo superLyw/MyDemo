@@ -10,6 +10,14 @@
     <link href="/static/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="/static/lib/bootstrap/bootstrap-table.css" rel="stylesheet">
     <style>
+        body{
+            width: 100%;
+            height: 100%;
+        }
+        .container-fluid{
+            width: 100%;
+            height: 600px;
+        }
         .table{
             table-layout:fixed;
             overflow: hidden !important;
@@ -21,9 +29,22 @@
             border-bottom: 0px solid transparent;
         }
 
+        .buttonArea{
+            margin: 15px;
+            float: right;
+        }
+        .nor_btn{
+            height: 30px;
+
+        }
     </style>
 </head>
 <body>
+<div class="buttonArea">
+    <button id="btnAdd" class="btn nor_btn">添加</button>
+    <button id="btnEdit" class="btn nor_btn">修改</button>
+    <button id="btnDel" class="btn nor_btn">删除</button>
+</div>
 <div class="container-fluid">
     <table id="sysUserTable"></table>
 </div>

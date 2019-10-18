@@ -3,6 +3,8 @@ package com.example.demo;
 import com.example.demo.common.utils.TreeNode;
 
 import java.text.DecimalFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 public class JavaDemo {
@@ -146,8 +148,8 @@ public class JavaDemo {
     }
 
     public static void main(String[] args) {
-        DecimalFormat df = new DecimalFormat("0.000");
-        double[] temp = {8.0, 2.0, 6.0, 1.0, 9.0, 10.0, 3.0, 7.0, 5.0, 4.0};
+//        DecimalFormat df = new DecimalFormat("0.000");
+//        double[] temp = {8.0, 2.0, 6.0, 1.0, 9.0, 10.0, 3.0, 7.0, 5.0, 4.0};
 
 //        for (int i = 0; i < 10; i++) {
 //            double num = Double.valueOf(df.format(Math.random())) * 1000;
@@ -177,7 +179,20 @@ public class JavaDemo {
 //        double[] arr = javaDemo.bubbleSort(temp);
 //        javaDemo.listString(arr);
 
-        javaDemo.quickSort(temp, 0, temp.length - 1);
-        javaDemo.listString(temp);
+//        javaDemo.quickSort(temp, 0, temp.length - 1);
+//        javaDemo.listString(temp);
+
+        String[] weekList = {"1"};
+
+        DateTimeFormatter df1 = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        LocalDate stime = LocalDate.parse("2018-09-03",df1);
+        LocalDate etime = LocalDate.parse("2019-09-03",df1);
+        while (!stime.equals(etime)){
+            String dayOfWeek = stime.getDayOfWeek().getValue()+"";
+            if(Arrays.asList(weekList).contains(dayOfWeek)){
+                System.out.println(stime);
+            }
+            stime = stime.plusDays(1);
+        }
     }
 }
